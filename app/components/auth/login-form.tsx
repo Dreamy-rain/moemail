@@ -14,20 +14,7 @@ import {
 } from "@/components/ui/card"
 import { Github } from "lucide-react"
 
-<<<<<<< HEAD
 export function LoginForm() {
-=======
-interface TurnstileConfigProps {
-  enabled: boolean
-  siteKey: string
-}
-
-interface LoginFormProps {
-  turnstile?: TurnstileConfigProps
-}
-
-export function LoginForm(_props: LoginFormProps) {
->>>>>>> 97a93bab85f883486a64b51b66961384d54c3186
   const [loading, setLoading] = useState(false)
   const { toast } = useToast()
   const t = useTranslations("auth.loginForm")
